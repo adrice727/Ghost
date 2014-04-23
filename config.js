@@ -11,20 +11,20 @@ config = {
         // The url to use when providing links to the site, E.g. in RSS and email.
         url: 'http://my-ghost-blog.com',
 
-        // Example mail config
-        // Visit http://docs.ghost.org/mail for instructions
-        // ```
-        //  mail: {
-        //      transport: 'SMTP',
-        //      options: {
-        //          service: 'Mailgun',
-        //          auth: {
-        //              user: '', // mailgun username
-        //              pass: ''  // mailgun password
-        //          }
-        //      }
-        //  },
-        // ```
+        Example mail config
+        Visit http://docs.ghost.org/mail for instructions
+        ```
+         mail: {
+             transport: 'SMTP',
+             options: {
+                 service: 'Mailgun',
+                 auth: {
+                     user: 'postmaster@sandboxa2438c2a60cb4363aadd42e01624d430.mailgun.org', // mailgun username
+                     pass: '0jjvwcoak8f0'  // mailgun password
+                 }
+             }
+         },
+        ```
 
         database: {
             client: 'sqlite3',
